@@ -38,3 +38,14 @@ schedule: For scheduling tasks.
 logging: For logging info, warnings, and errors.
 
 os and dotenv: For loading environment variables from a .env file.
+
+
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Developed with 💻 and 🧠 by Ohia Ikenna MarkHenry (2024)
+
