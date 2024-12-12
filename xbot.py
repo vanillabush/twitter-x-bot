@@ -165,8 +165,8 @@ def respond_to_mentions():
                 logger.error(f"Error: {error}", exc_info=True)
 
 # Schedule the bot
-schedule.every().minute.do(tweet_tip)  # Tweet a tip every day at 9 AM
-schedule.every().hour.do(respond_to_mentions)   # Check mentions every hour
+schedule.every(1).day.do(tweet_tip)  # Tweet a tip every day 
+schedule.every(1).hour.do(respond_to_mentions)   # Check mentions every hour
 
 while True:
     schedule.run_pending()
