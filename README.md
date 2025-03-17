@@ -13,7 +13,7 @@ This is a Python script that tweets random Python programming tips and responds 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/twitter-python-tips-bot.git
+git clone https://github.com/vanillabush/twitter-python-tips-bot.git
 cd twitter-python-tips-bot
 ```
 2. Install the required packages:
